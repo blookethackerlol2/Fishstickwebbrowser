@@ -53,7 +53,7 @@ class Browser(QMainWindow):
 
         # URL bar
         self.url_bar = QLineEdit()
-        self.url_bar.setPlaceholderText("Type a URL or search term")
+        self.url_bar.setPlaceholderText("Type a URL")
         self.url_bar.returnPressed.connect(self.navigate_to_url)
 
         # Create a QCompleter for the URL bar
